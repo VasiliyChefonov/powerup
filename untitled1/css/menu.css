@@ -1,0 +1,72 @@
+            .main__logo_red{
+    color:red;
+}
+ .main__logo {
+         font-family: 'Baloo Bhai', cursive;
+         font-size: 40px;
+         font-weight: 800;
+         display: block;
+     }
+ @media screen and (max-width: 768px) {
+     .main__logo{
+         text-align: center;
+     }
+ }
+ @media screen and (min-width: 768px) {
+     .main__logo{
+         text-align: left;
+         padding-left: 30px;
+     }
+ }
+ .sub-header{
+     font-family: 'M PLUS Rounded 1c', sans-serif;
+     font-size: 40px;
+ }
+ .sub-header-block{
+     text-align: center;
+ }
+
+ .legs{
+     width: 390px;
+     height: 80px;
+     border-radius: 30px;
+     text-align: center;
+     padding-top:5px;
+ }
+
+ .red{
+     margin-top:10px;
+     background-color: red;
+ }
+
+ .red:hover{
+     background-color: #b21f2d;
+ }
+ .green{
+     margin-top:30px;
+     background-color: green;
+ }
+
+ .green:hover{
+     background-color: #0b2e13;
+ }
+
+ .blue{
+     margin-top:30px;
+     background-color: blue;
+ }
+
+ .blue:hover{
+     background-color: #062c33;
+ }
+
+ .list-text{
+     color: white;
+ }
+
+ .menu{
+     padding-top: 10px;
+ }
+ a{
+    text-decoration: none !important;
+ }
